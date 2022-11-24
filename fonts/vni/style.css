@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Champion';
+    src:url('champion.ttf') format('truetype'),
+    url('champion.ttf/champion.eot#iefix') format('embedded-opentype'),
+    url('champion.ttf/champion.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miama';
+    src:url('miama.otf') format('truetype'),
+    url('miama.ttf/miama.eot#iefix') format('embedded-opentype'),
+    url('miama.ttf/miama.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.name {
+    font-family: 'Champion';
+    font-weight: 500;
+    font-size: 8em;
+    font-size: 14vmin;
+}
+
+.and {
+    font-family: 'Champion';
+    font-weight: 500;
+}
+
+#hero .and {
+    font-size: 5vmin;
+    margin-left: 3vmin;
+    margin-top: 2vmin;
+}
+
+footer .name {
+    font-size: 6em;
+    font-size: 10vmin;
+}
+
+footer .and {
+    font-size: 5vmin;
+    margin-left: 1vmin;
+}
+
+nav a {
+    font-family: 'Fira Sans',sans-serif !important;
+}
+
+#events p {
+    font-size: 28px;
+}
+
+#story .date {
+    color: #DB5357;
+}
+
+@media (max-width: 800px) {
+    #hero h1 {
+        flex-direction: column;
+    }
+
+    #hero h1 .name {
+        display: block;
+        width: 100%;
+    }
+
+    #hero .and {
+        margin-top: -3vmin;
+        margin-bottom: 4vmin;
+    }
+}
+
+@media (max-width: 720px) {
+    footer h3 {
+        position: relative;
+        margin-bottom: 0 !important;
+        margin-top: 3vmin !important;
+    }
+
+    footer .name {
+        display: block;
+    }
+
+    footer .and {
+        margin-top: -3vmin;
+        display: block;
+    }
+}
+
