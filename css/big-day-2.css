@@ -1438,6 +1438,7 @@ section.section-gallery .gallery-overlay.loaded:before {
 
 section.section-gallery .gallery-overlay .gallery-modal {
   width: 80%;
+  max-height: calc(100% - 200px);
   -webkit-transform: scale(0);
   -o-transform: scale(0);
   -ms-transform: scale(0);
