@@ -1,5 +1,5 @@
 .discover-area .list-box .icon {
-  color: #729C13;
+  color: #820000 ;
 }
 .service-icon span {
   height: 54px;
@@ -8,7 +8,7 @@
   text-align: center;
   line-height: 54px;
   font-size: 1.5rem;
-  color: #729C13;
+  color: #820000 ;
   border-radius: 4px;
   background-color: var(--white-color);
   border: 1px solid var(--primary-l-color);
@@ -18,7 +18,7 @@
   transition: all 0.3s ease 0s;
 }
 .btn, .btn:active, .btn.sApp-btn:before, .benifits-item:after {
-  background: #729C13;
+  background: #820000 ;
 }
 
 .section-heading > h2::after {
@@ -26,7 +26,7 @@
   content: '';
   height: 2px;
   width: 70px;
-  background-color: #729C13;
+  background-color: #820000 ;
   bottom: -15px;
   left: 50%;
   -webkit-transform: translateX(-50%);
@@ -34,7 +34,7 @@
 }
 
 .app-screenshots .slick-dots .slick-active button {
-  background-color: #729C13;
+  background-color: #820000 ;
   -webkit-box-shadow: 0 1px 5px var(--primary-color-2);
   box-shadow: 0 1px 5px var(--primary-color-2);
 }
@@ -44,7 +44,7 @@
   width: 100%;
   display: block;
   border-radius: 120px;
-  background: #729C13;
+  background: #820000 ;
   bottom: 0;
   right: 0;
   -webkit-transform: translate(35%, -28%) rotate(-35deg);
@@ -59,7 +59,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  background: #729C13;
+  background: #820000 ;
   opacity: 0.94;
   z-index: -1;
 }
