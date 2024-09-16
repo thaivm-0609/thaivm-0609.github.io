@@ -46,7 +46,7 @@
   border-radius: 120px;
   background: #95AB8C ;
   bottom: 0;
-  right: 0;
+  right: -50px;
   -webkit-transform: translate(35%, -28%) rotate(-35deg);
   transform: translate(35%, -28%) rotate(-35deg);
   z-index: 0;
